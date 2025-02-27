@@ -1,1 +1,19 @@
 @import "tailwindcss";
+
+@layer components {
+  .todo-box {
+    @apply px-5 py-3 bg-[#1D1616] rounded-lg shadow-md;
+  }
+
+  .btn {
+    @apply text-white px-5 py-2  rounded-4xl text-lg cursor-pointer;
+  }
+
+  .inp {
+    @apply text-white pl-3 h-9 rounded-full text-lg border-2  outline-0 hover:border-green-400;
+  }
+
+  .task {
+    @apply w-full flex items-center justify-between;
+  }
+}
